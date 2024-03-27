@@ -24,6 +24,6 @@ MejorRuta = nx.dijkstra_path(Rutas, source= source, target= target)
 RecorridoRuta = nx.dijkstra_path_length(Rutas, source= "ESTACION E", target="ESTACION B");
 
 print("El mejor recorrido");
-print("MejorRuta");
+print(MejorRuta);
 print("Km recorridos de la ruta =");
 print(RecorridoRuta);
